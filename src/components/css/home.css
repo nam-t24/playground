@@ -1,0 +1,34 @@
+.hero {
+  background-image: linear-gradient(to bottom, #3eb2f5, #1462a2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#app {
+  display: contents;
+}
+.atropos-banner .atropos-inner {
+  border-radius: 10px;
+}
+.atropos-banner img {
+  position: absolute;
+  right: -4%;
+  top: -5%;
+  min-width: 44rem;
+  height:110%;
+  /* object-fit: fill; */
+  z-index: 1;
+}
+.atropos-banner {
+  position: relative;
+  width: 40rem;
+  height: 30rem;
+}
+.atropos-banner .atropos-shadow {
+  filter: blur(50px);
+  opacity: 0.5;
+}
+.atropos-banner .atropos-highlight {
+  z-index: 100;
+}

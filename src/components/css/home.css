@@ -1,29 +1,28 @@
-.hero {
-  background-image: linear-gradient(to bottom, #3eb2f5, #1462a2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* Large */
+@media (min-width: 1024px) {
+
 }
-#app {
-  display: contents;
+
+/* Medium */
+@media (min-width: 768px) {
+
 }
+
+/* Small */
+@media (min-width: 640px) {
+
+}
+
+
 .atropos-banner .atropos-inner {
   border-radius: 10px;
 }
 .atropos-banner img {
   position: absolute;
-  right: -4%;
+  right: -6%;
   top: -5%;
-  min-width: 44rem;
+  min-width: 110%;
   height:110%;
-  /* object-fit: fill; */
-  z-index: 1;
-}
-.atropos-banner {
-  position: relative;
-  width: 40rem;
-  height: 30rem;
 }
 .atropos-banner .atropos-shadow {
   filter: blur(50px);
@@ -31,4 +30,14 @@
 }
 .atropos-banner .atropos-highlight {
   z-index: 100;
+}
+
+.hover{
+  transform: translate(-50%, 0) !important;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }

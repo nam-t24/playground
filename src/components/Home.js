@@ -7,15 +7,16 @@ import Sea_mid from "../assets/images/sea-mid.PNG";
 import Sea_mt from "../assets/images/sea-mt.PNG";
 import Title from "../assets/images/title.PNG";
 import Logo from '../assets/images/N.png';
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
      {/* Navbar */}
-      <div className="z-50 fixed top-2 right-0 w-screen flex justify-between items-center">
+      <div className="z-50 fixed top-5 right-0 w-screen flex justify-between items-center">
         <img src={Logo} alt="" className = "sm:w-12 w-10 ml-10"></img>
         <div className="navbar flex justify-around py-4 md:px-4 px-1 w-1/2 md:text-xl text-sm rounded-l-full">
-          <div>Services</div>
+          <Link to="/navbars">Navbars</Link>
           <div>About</div>
           <div>FAQ</div>
           <div>Contact</div>

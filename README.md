@@ -1,1 +1,1 @@
-Repo and site to test out libraries and other css stuff
+Repository and site to test out libraries and other css stuff
